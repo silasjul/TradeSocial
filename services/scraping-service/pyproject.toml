@@ -1,0 +1,12 @@
+[project]
+name = "scraping-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "fastapi[standard]>=0.115.12",
+    "lxml>=5.4.0",
+    "selenium>=4.32.0",
+]
